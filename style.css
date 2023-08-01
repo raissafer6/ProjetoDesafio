@@ -2,134 +2,127 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
-
 /* PRIMEIRA PARTE */
-#primario{
+#primario {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-/* imagem de fundo */
-.imagem-fundo{
-    background-image: url(./images/bg-header-desktop.png);
-    max-width: 100%;
-    height: 290px;
-}
-
 /* logo inicial */
-.logo{
+.logo {
     margin-top: -160px;
 }
 
 /* estilização dos textos */
-.text-inicio{
+.text-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     margin-top: 70px;
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
-.text-inicio h1{
+.text-inicio h1 {
     font-size: 40px;
     color: hsl(210, 10%, 33%);
 }
 
-.text-inicio p{
+.text-inicio p {
     color: hsl(201, 11%, 66%);
     padding-top: 15px;
 }
 
 /* botões abaixo do texto */
-.btns-inicio{
+.btns-inicio {
     margin-top: 40px;
 }
 
 /* INICIO SEGUNDA PARTE */
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
     margin-top: 120px;
     font-family: 'Bai Jamjuree', sans-serif;
     color: hsl(210, 10%, 33%);
 }
 
-#box-text{
+#box-text {
     text-align: center;
-    width: 620px;
+    max-width: 620px;
     margin-top: 20px;
     font-family: 'Bai Jamjuree', sans-serif;
     color: hsl(201, 11%, 66%);
 }
 
-.box-access{
+.box-access {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#image-computer img{
+#image-computer img {
     position: relative;
-    right: 100px;
+    right: 150px;
     margin-top: 150px;
 }
 
-#text-quick{
+#text-quick {
     width: 380px;
     font-size: 18px;
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
 
-#text-quick h3{
+#text-quick h3 {
     color: hsl(210, 10%, 33%);
     padding-top: 25px;
 }
 
-#text-quick p{
+#text-quick p {
     color: hsl(201, 11%, 66%);
     padding-top: 30px;
 }
 
-#box-text-two p{
+#box-text-two p {
     text-align: center;
     font-family: 'Bai Jamjuree', sans-serif;
     color: hsl(201, 11%, 66%);
     margin-top: 20px;
 }
 
-#box-text-two{
+#box-text-two {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 260px;
-}
-
-.box-supercharge{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#image-device img{
     margin-top: 100px;
 }
 
-#box-text-three{
+.box-supercharge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image-device img {
+    margin-top: 100px;
+}
+
+#box-text-three {
     margin-top: -50px;
 }
 
-#box-text-three p{
+#box-text-three p {
     text-align: center;
     font-family: 'Bai Jamjuree', sans-serif;
     color: hsl(201, 11%, 66%);
@@ -139,7 +132,7 @@
 /* FINAL SEGUNDA PARTE *****/
 
 
-#box-propaganda{
+#box-propaganda {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,35 +141,35 @@
     margin-top: 130px;
 }
 
-#box-propaganda h2{
+#box-propaganda h2 {
     color: hsl(210, 10%, 33%);
     margin: 15px 0px 14px 0px;
 }
 
-#box-propaganda p{
+#box-propaganda p {
     color: hsl(201, 11%, 66%);
 }
 
-.explicacoes{
+.explicacoes {
     display: flex;
     font-size: 13px;
 }
 
-.plain-text{
+.plain-text {
     margin: 0px 50px 0px 50px;
 }
 
-.marcas{
+.marcas {
     display: flex;
     align-items: center;
     margin-top: 50px;
 }
 
-.marcas img{
+.marcas img {
     margin: 45px;
 }
 
-#box-download{
+#box-download {
     margin-top: -80px;
     display: flex;
     flex-direction: column;
@@ -187,7 +180,7 @@
     height: 300px;
 }
 
-#box-download p{
+#box-download p {
     text-align: center;
     font-family: 'Bai Jamjuree', sans-serif;
     color: hsl(201, 11%, 66%);
@@ -195,18 +188,18 @@
     font-size: 15px;
 }
 
-#box-download h1{
+#box-download h1 {
     color: hsl(210, 10%, 33%);
     margin: 50px 0px 25px 0px;
     font-size: 30px;
 }
 
 
-.btns{
+.btns {
     margin-top: 40px;
 }
 
-.btn-download-ios{
+.btn-download-ios {
     background-color: hsl(171, 66%, 44%);
     color: white;
     width: 180px;
@@ -221,14 +214,14 @@
     margin-right: 10px;
 }
 
-.btn-download-ios:hover{
+.btn-download-ios:hover {
     background-color: white;
     color: hsl(171, 66%, 44%);
     transition: 0.3s;
 }
 
 
-.btn-download-mac{
+.btn-download-mac {
     background-color: hsl(233, 100%, 69%);
     color: white;
     width: 180px;
@@ -243,7 +236,7 @@
     margin-left: 10px;
 }
 
-.btn-download-mac:hover{
+.btn-download-mac:hover {
     background-color: white;
     color: hsl(233, 100%, 69%);
     transition: 0.3s;
@@ -251,7 +244,7 @@
 
 /* INICIO FINAL */
 /* footer */
-footer{
+footer {
     display: flex;
     width: 100%;
     height: 160px;
@@ -259,39 +252,186 @@ footer{
     margin-top: 100px;
 }
 
-.logo-footer{
+.logo-footer {
     margin-left: 170px;
     margin-top: 50px;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-li a{
+li a {
     text-decoration: none;
     font-family: 'Bai Jamjuree', sans-serif;
     color: hsl(210, 10%, 33%);
 }
 
-.links-footer{
+.links-footer {
     display: flex;
 }
 
-.column{
+.column {
     margin-left: 60px;
     padding-left: 40px;
     padding-top: 50px;
     font-size: 18px;
 }
 
-.icons-footer{
+.icons-footer {
     margin-top: 50px;
     margin-left: 180px;
 }
 
-.icons-footer img{
+.icons-footer img {
     padding-left: 30px;
 }
 
+
+@media screen and (max-width: 600px){
+    .text-inicio h1{
+        font-size: 22px;
+    }
+
+    .btns-inicio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .btns{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .btn-download-mac{
+        margin: 15px 0px 0px 0px;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+    }
+
+    .container h1{
+        font-size: 22px;
+    }
+
+    .box-access {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #box-text{
+        max-width: 400px;
+    }
+
+    #image-computer img{
+        position: relative;
+        right: 0;
+        left: 0;
+        max-width: 90%;
+    }
+
+    .box-access h3{
+        margin-top: 30px;
+    }
+
+    #box-text-two{
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    #box-text-two p{
+        max-width: 325px;
+    }
+
+    #box-text-three{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #box-text-three p{
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .box-supercharge #box-text-three{
+        margin-top: 20px;
+        
+    }
+
+    #image-device{
+        display: flex;
+        justify-content: center;
+    }
+
+    .box-supercharge img {
+        max-width: 100%;
+    }
+
+    #box-propaganda .explicacoes{
+        flex-direction: column;
+    }
+
+    .plain-text{
+        margin: 50px 0px 50px ;
+    }
+
+    .marcas{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 70px;
+    }    
+
+    footer{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-footer{
+        margin: 20px 0px 0px 0px;
+    }
+
+    .column{
+        margin: 0;
+        padding: 0;
+    }
+
+    .column ul li{
+        margin-top: 20px;
+    }
+
+    .icons-footer{
+        margin: 0px 0px 10px 0px;
+        padding: 0;
+    }
+
+    .icons-footer img{
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    .icons-app .img-twitter{
+        margin: 0px 20px 0px 20px;
+    }
+
+    .links-footer{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+}
 /* FIM */
